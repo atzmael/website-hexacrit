@@ -1,0 +1,9 @@
+@import "@scss/__mandatory";
+
+.pres {
+    color: $color-primary;
+
+    &-title {
+        font-size: 30px;
+    }
+}

@@ -1,0 +1,149 @@
+@import "@scss/__mandatory";
+
+.MuiAutocomplete {
+    &-root {
+        position: relative;
+        font-family: $font-mui;
+        //border: none;
+        border: 1px solid rgba($black, 0.25);
+        text-align: left;
+        @import "@scss/custom/mui/MuiInput.scss";
+        * {
+            font-family: $font-mui;
+        }
+        .MuiInput-formControl {
+            margin-top: 0;
+            &-root {
+                margin-top: auto;
+                vertical-align: middle;
+            }
+        }
+        .MuiFormControl {
+            &-root {
+                text-align: left;
+                
+            }
+        }
+        &.Mui {
+            &-focused {
+                .MuiInputLabel {
+                    &-root {
+                        display: none;
+                    }
+                }
+            }
+        }
+        .MuiAutocomplete {
+            &-inputRoot {
+                padding-right: 60px !important;
+            }
+            &-input {
+                padding: 0 10px !important;
+                border: none;
+                width: auto;
+                &:focus,
+                &:active {
+                    border: none;
+                    border-color: $color-border;
+                }
+            }
+      
+
+            &-tag {
+                &:not(.MuiChip-root) {
+                    font-style: italic;
+                    font-size: 11px;
+                    background-color: rgba($black, 0.05);
+                    padding: 0 5px;
+                    border-radius: 20px;
+                    min-width: 10px;
+                }
+                &.MuiChip {
+                    &-root {
+                        position: relative;
+                        background-color: $black;
+                        border-radius: 0;
+                        color: white;
+                        &:before,
+                        &:after {
+                            position: absolute;
+                            content: "";
+                            right: 10px;
+                            z-index: 10;
+                            top: 50%;
+                            width: 1px;
+                            height: 14px;
+                            display: block;
+                            background-color: white;
+                        }
+                        &:after {
+                            transform: translateY(-50%) rotate(45deg);
+                        }
+                        &:before {
+                            transform: translateY(-50%) rotate(-45deg);
+                        }
+                        span {
+                        }
+                        svg {
+                            //display: none;
+                            fill: $black;
+                            fill-opacity: 0;
+                        }
+                    }
+                }
+            }
+        }
+
+        .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+            border: none !important;
+        }
+        .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+            border: none !important;
+            legend {
+                display: none;
+            }
+        }
+        .MuiOutlinedInput {
+            &-root {
+                font-size: 14px;
+                line-height: 1;     
+            }
+        }
+        .MuiInputLabel {
+            &-root {
+                font-size: 14px;
+                line-height: 1;
+                margin-bottom: auto;
+                top: 50%;
+                transform: translateY(-50%);
+                padding: 0 10px;
+            }
+        }
+
+        & + .MuiAutocomplete {
+            &-popper {
+                position: absolute;
+                z-index: 1000;
+                display: block;
+                opacity: 1;
+
+                .MuiAutocomplete {
+                    &-paper {
+                        font-family: $font-mui;
+                        margin: 0;
+                    }
+                    &-listbox {
+                        padding: 0;
+                        box-shadow: 0 2px 5px rgba(black, 0.2);
+                        li {
+                            & + li {
+                                border-top: 1px solid $color-border;
+                                margin-top: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -4,13 +4,13 @@ import Error from 'next/error';
 
 
 
-const ErrorPage = ({ data, query, errorCode }) => {
+const ErrorPage = ({ data, query, errorCode }: any) => {
 
 
 
     const page: string = "error";
     const current: string = page;
-    const subcurrent: string = null;
+    const subcurrent: string = '';
     const lang = "en";
 
     let dataSeo = {
@@ -29,10 +29,11 @@ const ErrorPage = ({ data, query, errorCode }) => {
         <Layout
             header={true}
             footer={true}
-            current={!!current && current}
-            subcurrent={!!subcurrent && subcurrent}
+            current={current}
+            subcurrent={subcurrent}
             lang={lang}
             menu={null}
+            page={page}
         >
             <Error statusCode={404} />
         </Layout>

@@ -11,8 +11,8 @@ export interface HeaderInterface {
 const Header = ({ page, lang }: HeaderInterface) => {
 
     useEffect(() => {
-        if (document.querySelector('#__next > p')) {
-            document.querySelector('#__next > p').remove();
+        if (!!document.querySelector('#__next > p')) {
+            document.querySelector('#__next > p')!.remove();
         }
     }, [])
 

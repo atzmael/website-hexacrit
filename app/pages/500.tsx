@@ -16,7 +16,7 @@ const ErrorPage = () => {
 
     const page: string = "500";
     const current: string = page;
-    const subcurrent: string = null;
+    const subcurrent: string = '';
     const lang = "en";
 
     let dataSeo = {
@@ -40,10 +40,11 @@ const ErrorPage = () => {
         <Layout
             header={true}
             footer={true}
-            current={!!current && current}
-            subcurrent={!!subcurrent && subcurrent}
+            current={current}
+            subcurrent={subcurrent}
             lang={lang}
             menu={null}
+            page={page}
         >
             <h2>500 page</h2>
         </Layout>

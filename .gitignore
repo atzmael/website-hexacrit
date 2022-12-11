@@ -40,3 +40,6 @@
 /app/log
 /app/logs
 /app/public/uploads
+
+# static folder for DigitalOcean App Platform
+_static

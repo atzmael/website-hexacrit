@@ -1,13 +1,9 @@
 import Layout from "@components/structure/layout/main/Layout";
 
-
-
 const ErrorPage = () => {
-
-
     const page: string = "404";
     const current: string = page;
-    const subcurrent: string = null;
+    const subcurrent: string = '';
     const lang = "en";
 
     let dataSeo = {
@@ -19,7 +15,6 @@ const ErrorPage = () => {
         }
     }
 
-
     if (!!process.env.IS_DEBUG && process.env.IS_DEBUG === 'true') {
         // console.log('404 PAGE ', data);
         // console.log('DATA : ', data);
@@ -30,10 +25,11 @@ const ErrorPage = () => {
         <Layout
             header={true}
             footer={true}
-            current={!!current && current}
-            subcurrent={!!subcurrent && subcurrent}
+            current={current}
+            subcurrent={subcurrent}
             lang={lang}
             menu={null}
+            page={page}
         >
             <h2>Error page</h2>
         </Layout>

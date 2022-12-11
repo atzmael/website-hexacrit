@@ -3,7 +3,7 @@ import Head from 'next/head';
 interface HeadTagsInt {
     seo: any;
     page: string;
-    lang?: string;
+    lang: string;
     translation?: any;
     bot?: string;
 }

@@ -47,7 +47,7 @@ const getAllParameters = (url?:string) =>  {
           // if it's an indexed array e.g. colors[2]
           if (paramName.match(/\[\d+\]$/)) {
             // get the index value and add the entry at the appropriate position
-            let index:any = /\[(\d+)\]/.exec(paramName) ? /\[(\d+)\]/.exec(paramName)[1] : null;
+            let index:any = /\[(\d+)\]/.exec(paramName) ? /\[(\d+)\]/.exec(paramName)![1] : null;
             if(index){
                 obj[key][index] = paramValue;
             }

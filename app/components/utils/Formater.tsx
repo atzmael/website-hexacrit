@@ -32,7 +32,7 @@ const ucFirst = (str: string) => {
 }
 
 const formatNumber = (num: any, type: string) => {
-    let indice: string;
+    let indice: string = '';
     if (1000 > num) {
         return `<span class="stat-num">${num}</span>`;
     } else if (1000000 > num) {

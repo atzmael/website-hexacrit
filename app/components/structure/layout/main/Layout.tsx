@@ -23,10 +23,10 @@ const DynamicFooter = dynamic(
 
 interface LayoutProps {
     children?: any;
-    current?: string;
-    subcurrent?: string;
-    lang?: string;
-    page?: string;
+    current: string;
+    subcurrent: string;
+    lang: string;
+    page: string;
     mode?: string;
     tracker?: string;
     chapter1?: string;

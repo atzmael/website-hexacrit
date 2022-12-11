@@ -22,3 +22,7 @@
 // @media print {
 //     @import "core/__print";
 // }
+
+body {
+    min-height: 100vh;
+}

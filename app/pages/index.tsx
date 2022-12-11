@@ -1,16 +1,16 @@
 
-import BlocPresentation from '@components/elements/BlocPresentation/BlocPresentation';
 import Layout from '@components/structure/layout/main/Layout';
+import Home from '@components/structure/pages/public/home/Home';
 import HeadTag from '@structure/headTag/HeadTag';
 
 const page: string = "home";
 const current: string = page;
-const subcurrent: string = null;
+const subcurrent: string = '';
 const lang = "en";
 
 let defaultSeo = {
-    "metaTitle": ``,
-    "metaDescription": "",
+    "metaTitle": `HEXACRIT`,
+    "metaDescription": "Association loi 1901 agissant autour du jeu-vidéo et de l'organisation d'événements",
     "keywords": "",
     "canonicalURL": "",
     "metaSocial": [
@@ -41,15 +41,16 @@ let defaultSeo = {
     ]
 }
 
-const HomePage = ({ seo }) => {
+const HomePage = ({ seo }: any) => {
     return (
         <Layout
             header={true}
             footer={true}
-            current={!!current && current}
-            subcurrent={!!subcurrent && subcurrent}
+            current={current}
+            subcurrent={subcurrent}
             lang={lang}
             menu={{}}
+            page={page}
         >
             {!!seo &&
                 <HeadTag
@@ -58,10 +59,7 @@ const HomePage = ({ seo }) => {
                     seo={!!seo && 'ok' === seo.status && !!seo.generic ? seo.generic.seo : defaultSeo}
                 />
             }
-            {/* HERE GOES CONTENT */}
-            <BlocPresentation>
-                <h2>COUCOU 2</h2>
-            </BlocPresentation>
+            <Home />
         </Layout>
     )
 }

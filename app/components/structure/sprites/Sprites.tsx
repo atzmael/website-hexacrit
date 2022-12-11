@@ -40,11 +40,13 @@ const SvgSprite = ({
     }, [svgItems]);
 
     return (
-        (!!svgItems && svgItems.length > 0) &&
-        <svg className="defs-svg" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
-            <defs></defs>
-            {symbols}
-        </svg>
+        (!!svgItems && svgItems.length > 0) ?
+            <svg className="defs-svg" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+                <defs></defs>
+                {symbols}
+            </svg>
+            :
+            null
     )
 }
 

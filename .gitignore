@@ -1,45 +1,44 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 /cache
-/app/cache
 
 # dependencies
-/app/node_modules
-/app/.pnp
-/app/.pnp.js
+node_modules
+.pnp
+.pnp.js
 
 # testing
-/app/coverage
+coverage
 
 # next.js
-/app/.next/
-/app/_next/
-/app/_next
-/app/out/
+.next/
+_next/
+_next
+out/
 
 # production
-/app/build
+build
 
 # misc
 *.DS_Store
-/app/*.DS_Store
-/app/*.pem
-/app/.env*
+*.DS_Store
+*.pem
+.env*
 
 # debug
-/app/npm-debug.log*
-/app/yarn-debug.log*
-/app/yarn-error.log*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
 # vercel
-/app/.vercel
+.vercel
 
-/app/package-lock.json
+package-lock.json
 /node_modules
 
-/app/log
-/app/logs
-/app/public/uploads
+log
+logs
+public/uploads
 
 # static folder for DigitalOcean App Platform
 _static

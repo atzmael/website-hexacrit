@@ -6,7 +6,7 @@ import HeadTag from '@structure/headTag/HeadTag';
 const page: string = "home";
 const current: string = page;
 const subcurrent: string = '';
-const lang = "en";
+const lang = "fr";
 
 let defaultSeo = {
     "metaTitle": `HEXACRIT`,
@@ -56,7 +56,7 @@ const HomePage = ({ seo }: any) => {
                 <HeadTag
                     page={page}
                     lang={lang}
-                    seo={!!seo && 'ok' === seo.status && !!seo.generic ? seo.generic.seo : defaultSeo}
+                    seo={defaultSeo}
                 />
             }
             <Home />

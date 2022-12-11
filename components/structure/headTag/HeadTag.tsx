@@ -25,17 +25,17 @@ const HeadTag = ({ seo, page, lang, translation, bot }: HeadTagsInt) => {
 
     return (
         <Head>
-            <title>{!!seo && !!seo.title ? seo.title : ``}</title>
-            <meta name="description" content={!!seo.desc && seo.desc} />
-            <meta name="keywords" content={!!seo.kw && seo.kw} />
+            <title>{!!seo && !!seo.metaTitle ? seo.metaTitle : ``}</title>
+            <meta name="description" content={!!seo.metaDescription && seo.metaDescription} />
+            <meta name="keywords" content={!!seo.keywords && seo.keywords} />
 
-            <meta property="og:title" content={!!seo.og.title && seo.og.title} />
+            <meta property="og:title" content={!!seo.og.metaTitle && seo.og.metaTitle} />
 
             {/*
-                <title>{translation[lang][page].metas.title} | {translation[lang].global.brand } {translation[lang].global.claim } </title>
+                <title>{translation[lang][page].metas.metaTitle} | {translation[lang].global.brand } {translation[lang].global.claim } </title>
                 <meta name="description" content={translation[lang][page].metas.description} />
                 <meta name="keywords" content={translation[lang][page].metas.keywords} />
-                <meta property="og:title" content={translation[lang][page].og.title} /> */}
+                <meta property="og:title" content={translation[lang][page].og.metaTitle} /> */}
 
             {/* <link rel="dns-prefetch" href="https://www.google-analytics.com" /> */}
             <link rel="preconnect" href="https://www.google-analytics.com" />

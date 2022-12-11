@@ -1,0 +1,63 @@
+.MuiDialog {
+    &-root {
+        z-index: 10000 !important;
+        font-family: $font-mui;
+        .far,
+        .fa-regular {
+            font-family: "Font Awesome 6 Pro";
+            font-weight: 400;
+        }
+        .MuiDialog {
+            &-paper {
+                width: 100%;
+                max-width: 1024px !important;
+                margin: 0 !important;
+                padding: 0;
+                @media screen and (max-width: $bp-smartphone-large) {
+                    width: 100%;
+                    height: 100%;
+                }
+                &-speaker,
+                &-side-events,
+                &-schedule {
+                    border-radius: 0;        
+                }
+            }
+            &-container {
+                &-speaker,
+                &-side-events,
+                &-schedule {
+                    // .MuiDialog {
+                    //     &-root {
+                            .MuiDialog {
+                                &-paper {
+                                    max-width: 1140px!important;
+                                }
+                            }
+                    //     }
+                    // }
+                }
+            }
+        }
+        
+    }
+    &-scrollBody {
+        width: 100%;
+    }
+    &-paperScrollBody {
+        max-width: none;
+    }
+    &Content {
+        &-root {
+            padding: 0 !important;
+            &:first-child {
+                padding-top: 0 !important;
+            }
+        }
+        &-dividers {
+            width: 100%;
+            padding: 0;
+        }
+    }
+}
+

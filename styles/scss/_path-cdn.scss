@@ -1,0 +1,12 @@
+//$prefixCdn : "https://ewr1.vultrobjects.com/";
+// $prefixCdn : "https://cdn.vivatechnology.com/";
+
+// $prefix : "vt-all";
+$prefixCdn : "https://agencebenedicte.com/";
+
+$prefix : "";
+
+$own-font-path: "#{$prefixCdn}#{$prefix}/assets/fonts/";
+$fa-font-path: "#{$prefixCdn}#{$prefix}/assets/fonts/";
+$own-image-path: "#{$prefix}assets/images/";
+$own-medias-path: "#{$prefix}assets/medias/";

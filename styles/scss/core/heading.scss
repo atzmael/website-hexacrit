@@ -1,0 +1,140 @@
+// h1,
+// .h1,
+// h2,
+// .h2,
+// h3,
+// .h3,
+// h4,
+// .h4 h5,
+// .h5,
+// h6,
+// .h6 {
+//     //color: $black;
+//     font-weight: 400;
+//     b,
+//     strong {
+//         font-weight: 500;
+//     }
+//     &.font-title {
+//         font-weight: bold;
+//         font-family: $font-title;
+//     }
+// }
+
+// h1,
+// .h1 {
+//     font-size: 28px;
+//     line-height: 1;
+//     @media screen and (min-width: $bp-tablet) {
+//         font-size: 32px;
+//     }
+//     @media screen and (min-width: $bp-desk-large) {
+//         font-size: 40px;
+//     }
+//     &:not(.font-title) {
+//         @media screen and (min-width: $bp-tablet) {
+//             font-size: 32px;
+//         }
+//         @media screen and (min-width: $bp-desk-large) {
+//             font-size: 40px;
+//         }
+//     }
+//     &.font-title {
+//         @media screen and (min-width: $bp-tablet) {
+//             font-size: 48px;
+//         }
+//         @media screen and (min-width: $bp-desk-large) {
+//             font-size: 60px;
+//         }
+//     }
+// }
+
+// h2,
+// .h2 {
+//     font-size: 20px;
+//     line-height: 1;
+//     &:not(.font-title) {
+//         @media screen and (min-width: $bp-tablet) {
+//             font-size: 24px;
+//         }
+//         @media screen and (min-width: $bp-desk-large) {
+//             font-size: 26px;
+//         }
+//     }
+//     &.font-title {
+//         &:not(.bigest) {
+//             @media screen and (min-width: $bp-tablet) {
+//                 font-size: 24px;
+//             }
+//             @media screen and (min-width: $bp-desk-small) {
+//                 font-size: 30px;
+//             }
+//             @media screen and (min-width: $bp-desk-large) {
+//                 font-size: 36px;
+//             }
+//             @media screen and (min-width: $bp-desk-xlarge) {
+//                 font-size: 40px;
+//             }
+//         }
+//         &.bigest {
+//             @media screen and (min-width: $bp-tablet) {
+//                 font-size: 36px;
+//             }
+//             @media screen and (min-width: $bp-desk-small) {
+//                 font-size: 40px;
+//             }
+//             @media screen and (min-width: $bp-desk-large) {
+//                 font-size: 50px;
+//             }
+//             @media screen and (min-width: $bp-desk-xlarge) {
+//                 font-size: 60px;
+//             }
+//         }
+//     }
+// }
+// h3,
+// .h3 {
+//     font-size: 16px;
+//     line-height: 1;
+//     @media screen and (min-width: $bp-tablet) {
+//         font-size: 17px;
+//     }
+//     @media screen and (min-width: $bp-desk-large) {
+//         font-size: 18px;
+//     }
+// }
+// h4,
+// .h4 {
+//     font-size: 15px;
+//     line-height: 1;
+//     @media screen and (min-width: $bp-tablet) {
+//         font-size: 16px;
+//     }
+//     @media screen and (min-width: $bp-desk-large) {
+//         font-size: 17px;
+//     }
+// }
+
+// h5,
+// .h5 {
+//     font-size: 14px;
+//     line-height: 1;
+//     @media screen and (min-width: $bp-tablet) {
+//         font-size: 15px;
+//     }
+//     @media screen and (min-width: $bp-desk-large) {
+//         font-size: 16px;
+//     }
+// }
+
+// h6,
+// .h6 {
+//     font-size: 13px;
+//     line-height: 1;
+//     @media screen and (min-width: $bp-tablet) {
+//         font-size: 14px;
+//     }
+//     @media screen and (min-width: $bp-desk-large) {
+//         font-size: 15px;
+//     }
+// }

@@ -1,0 +1,63 @@
+html {
+    &.own-html {
+        width: 100%;
+        min-height: 100vh;
+        background-color: $color-html;
+        box-sizing: border-box;
+        &:not(.firefox) {
+            scroll-behavior: smooth;
+        }
+        .skip-main {
+            position: absolute;
+            top: -1000px;
+            left: -1000px;
+            height: 1px;
+            width: 1px;
+            text-align: left;
+            overflow: hidden;
+        }
+        body {
+            &[id="bodySite"] {
+                width: 100%;
+                min-height: 100vh;
+                box-sizing: border-box;
+                color: $color-text;
+                font-size: 14px;
+                line-height: 1.4;
+                background-color: $color-body;
+                font-family: $font-body-wf;
+
+                &.ReactModal__Body {
+                    &--open {
+                        overflow: hidden;
+                    }
+                }
+            }
+        }
+    }
+
+    &.menu-touch-html {
+        #bodySite {
+            overflow: hidden;
+            height: 100vh;
+            transition: all 0.3s ease;
+            // padding-right: 280px;
+        }
+    }
+    .bm {
+        &-overlay {
+            top: 0;
+            left: 0;
+            min-width: 100vw;
+        }
+    }
+
+    [data-page]:not([data-page="home"]) {
+        [id] {
+            &:target {
+                padding-top: 120px;
+                margin-top: -120px;
+            }
+        }
+    }
+}

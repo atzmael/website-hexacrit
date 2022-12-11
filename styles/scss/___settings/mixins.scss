@@ -1,0 +1,71 @@
+@mixin bg-gradient($deg, $start-colour, $end-colour) {
+    background-image: -webkit-gradient($deg, left top, left bottom, from($start-colour), to($end-colour));
+    background-image: -webkit-linear-gradient($deg, $start-colour, $end-colour);
+    background-image: -moz-linear-gradient($deg, $start-colour, $end-colour);
+    background-image: -ms-linear-gradient($deg, $start-colour, $end-colour);
+    background-image: -o-linear-gradient($deg, $start-colour, $end-colour);
+    background-image: linear-gradient($deg, $start-colour, $end-colour);
+}
+
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+}
+
+@mixin transitionElt($attribut, $time, $type) {
+    -webkit-transition: $attribut $time $type;
+    -moz-transition: $attribut $time $type;
+    -ms-transition: $attribut $time $type;
+    -o-transition: $attribut $time $type;
+    transition: $attribut $time $type;
+}
+
+@mixin box-sizing($box) {
+    -webkit-box-sizing: $box;
+    -moz-box-sizing: $box;
+    box-sizing: $box;
+}
+
+@mixin rotateElt($degre) {
+    -webkit-transform: rotate($degre);
+    -moz-transform: rotate($degre);
+    -ms-transform: rotate($degre);
+    -o-transform: rotate($degre);
+    transform: rotate($degre);
+}
+
+@mixin scaleElt($value) {
+    -webkit-transform: scale($value);
+    -moz-transform: scale($value);
+    -ms-transform: scale($value);
+    -o-transform: scale($value);
+    transform: scale($value);
+}
+
+@mixin keyframes($animation-name) {
+    @-webkit-keyframes #{$animation-name} {
+        @content;
+    }
+    @-moz-keyframes #{$animation-name} {
+        @content;
+    }
+    @-ms-keyframes #{$animation-name} {
+        @content;
+    }
+    @-o-keyframes #{$animation-name} {
+        @content;
+    }
+    @keyframes #{$animation-name} {
+        @content;
+    }
+}
+
+@mixin animation($str) {
+    -webkit-animation: #{$str};
+    -moz-animation: #{$str};
+    -ms-animation: #{$str};
+    -o-animation: #{$str};
+    animation: #{$str};
+}

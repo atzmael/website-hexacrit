@@ -1,8 +1,0 @@
-@charset "utf-8";
-@import "_path-print";
-@import "__core";
-
-@media print {
-  @import "fonts-local";
-  @import "core/_print";
-}

@@ -1,0 +1,83 @@
+@import "@scss/_mandatory";
+
+.chart {
+    :global {
+        .highcharts {
+            &-background {
+                fill: transparent;
+            }
+            &-point {
+                stroke: unset;
+            }
+            &-yaxis {
+                &-labels {
+                    span,
+                    text {
+                        color: $color-grey-150 !important;
+                        fill: $color-grey-150 !important;
+                        font-size: 12px !important;
+                        font-weight: $ft-medium;
+                    }
+                }
+                &-grid {
+                    .highcharts {
+                        &-grid-line {
+                            stroke: $color-grey-50;
+
+                            &:first-child {
+                                opacity: 0;
+                            }
+                        }
+                    }
+                }
+            }
+            &-xaxis {
+                .highcharts {
+                    &-axis {
+                        &-line {
+                            stroke: unset;
+                        }
+                    }
+                }
+                &-labels {
+                    text,
+                    span {
+                        color: $color-background-dark !important;
+                        fill: $color-background-dark !important;
+                        font-size: 14px !important;
+                        line-height: 19.6px;
+                        font-weight: $ft-medium;
+                    }
+                }
+            }
+            &-tooltip {
+                &-item {
+                    background-color: $color-white;
+                    border-radius: 0 16px 0 16px;
+                    min-width: 140px;
+                    max-width: 100%;
+                    white-space: normal;
+                    text-align: center;
+
+                    &-inner {
+                        padding: 16px;
+                    }
+                    &-text {
+                        font-family: $font;
+                        font-weight: $ft-medium;
+                        color: $color-grey-150;
+                        font-size: 16px;
+                        margin-bottom: 8px;
+                        line-height: 1;
+                    }
+                    &-number {
+                        font-family: $font;
+                        font-weight: $ft-bold;
+                        font-size: 20px;
+                        line-height: 1;
+                    }
+                }
+            }
+        }
+    }
+}

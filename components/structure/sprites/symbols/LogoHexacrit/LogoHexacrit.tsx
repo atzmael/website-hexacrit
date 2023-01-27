@@ -19,8 +19,8 @@ const IconFabTwitter = ({ svgId }: symbolProps) => (
             </clipPath>
             <linearGradient id="SVGID_00000116944792642705755420000013597661354989245859_" x1="1031.56" x2="1031.56"
                 y1="1659.143" y2="690.989" gradientUnits="userSpaceOnUse">
-                <stop offset=".005" stop-color="#ffe921" />
-                <stop offset=".995" stop-color="#ffe921" stop-opacity="0" />
+                <stop offset=".005" stopColor="#ffe921" />
+                <stop offset=".995" stopColor="#ffe921" stopOpacity="0" />
             </linearGradient>
             <path fill="url(#SVGID_00000116944792642705755420000013597661354989245859_)"
                 d="M1917.1 1097.4v-67.3l58.4-33.8 13.9 8c-.3-7.8-.9-15.5-1.7-23.3l-2.5-1.4v-24.2c-2.2-20.3-5-40.5-8.7-60.5l-1 .6-58.4-33.7v-67.5l30.7-17.7c-1.9-6.2-4-12.4-6.1-18.6l-34.2 19.7-58.4-33.7v-67.5l48.3-27.8c-2.8-5.8-5.7-11.5-8.5-17.4l-49.5 28.5-58.4-33.7v-67.5l48.9-28.2c-3.6-5.3-7.3-10.7-10.9-15.9l-47.6 27.5-58.4-33.7V441l32.6-18.8c-4.3-4.9-8.8-9.8-13.3-14.6l-28.9 16.7-58.4-33.7v-65.4c-27.8-23.2-57-44.8-87.3-64.6v12.2l-58.4 33.7-58.4-33.7v-67.5l9.7-5.6c-32.8-16.1-66.6-30.2-101.4-42.3l-54 31.2L1237 155v-29.4c-6.3-1.4-12.8-2.8-19.3-4V155l-58.4 33.7-58.4-33.7v-36.3h101.6c-55.5-10.1-112.8-15.3-171.2-15.3-58.4 0-115.6 5.2-171.2 15.3h85.3V155L887 188.7 828.9 155v-30c-6.5 1.3-12.9 2.7-19.3 4.3V155l-58.4 33.7-47.9-27.7c-34.3 12.4-67.6 26.8-100 43l2.2 1.3v67.5l-58.4 33.7-58.4-33.7v-1.3c-23.5 16-46 33.4-67.9 51.5l58.2-33.5 58.4 33.7v67.5L479 424.3l-58.4-33.7v-67.4c-6.4 5.3-13 10.4-19.3 15.9v51.5L343 424.3l-18.4-10.6c-4.5 4.9-8.9 9.8-13.2 14.8l21.9 12.6v67.5l-58.4 33.7-36-20.7c-3.6 5.3-7.3 10.6-10.7 16.1l37.2 21.4v67.5L207 659.9l-36.8-21.2c-2.8 5.8-5.7 11.7-8.4 17.5l35.5 20.5v67.5L139 777.8 118.4 766c-2.1 6.2-4 12.4-6 18.8l16.8 9.7V862l-41.4 23.8c-1.6 8.3-3 16.4-4.3 24.9l55.4-32.1 58.3 33.8v67.3l-58.3 33.8-58.4-33.8v-49.1c-3.1 22.3-5.4 44.8-6.9 67.5l55.5 32.1v67.3l-55.5 32.1c1.4 22.4 3.8 44.7 6.9 66.6V1148l58.4-33.8 58.3 33.8v67.3l-58.3 33.8-55.3-32c1.3 8.3 2.7 16.7 4.4 24.9l41.2 23.8v67.3l-16.6 9.6c1.9 6.3 3.9 12.7 6 18.9l20.3-11.8 58.3 33.8v67.3l-35.1 20.3c2.7 5.8 5.6 11.7 8.4 17.5l36.4-21.1 58.4 33.8v67.3l-36.6 21.2c3.5 5.4 7 10.6 10.7 15.9l35.5-20.5 58.4 33.7v67.5l-21.4 12.3c4.3 4.9 8.7 9.8 13.2 14.6l17.9-10.2 58.3 33.7v50.8c6.3 5.4 12.7 10.9 19.3 16.3v-67l58.4-33.7 58.4 33.7v67.5l-58.4 33.7-56.8-32.8c21.4 17.6 43.6 34.3 66.6 50v-.5l58.4-33.7 58.4 33.7v67.5l-1.6.9c32.4 16.2 65.8 30.6 100.2 43l47-27.2 58.4 33.7v25c6.3 1.6 12.8 3 19.3 4.3v-29.3l58.3-33.7 58.4 33.7v46.9c6.3.6 12.8 1.2 19.3 1.6v-48.4l58.4-33.7 58.4 33.7v49.5c6.5-.4 12.9-.8 19.3-1.3v-48.2l58.4-33.7 58.4 33.7v32.6c6.5-1.2 12.9-2.6 19.3-4v-28.6l58.4-33.7 53.1 30.7c34.8-12 68.8-26.3 101.6-42.2l-9.1-5.2V1855l58.4-33.7 58.4 33.7v11.4c30.3-19.9 59.4-41.6 87.3-64.6V1737l58.4-33.7 28.4 16.3c4.5-4.8 8.9-9.6 13.3-14.5l-32.1-18.5v-67.5l58.4-33.7 47.1 27.2c3.8-5.2 7.4-10.5 11-15.8l-48.6-28.1v-67.3l58.4-33.8 49.1 28.4c2.8-5.8 5.7-11.5 8.5-17.4l-47.9-27.7v-67.3l58.4-33.8 33.9 19.6c2.1-6.2 4.1-12.4 6.1-18.6l-30.4-17.6v-67.3l58.4-33.8.9.5c3.6-20.2 6.6-40.5 8.8-61.1v-23.4l2.5-1.4c.8-7.8 1.3-15.5 1.7-23.3l-13.9 8-58.5-34zm48.9-185.1v67.3l-58.4 33.8-58.4-33.8v-67.3l58.4-33.8 58.4 33.8zM401.3 1030.1v67.3l-58.3 33.8-58.4-33.8v-67.3l58.4-33.8 58.3 33.8zm-48.7-50.5v-67.3l58.4-33.8 58.4 33.8v67.3l-58.4 33.8-58.4-33.8zm0 168.3 58.4-33.8 58.4 33.8v67.3L411 1249l-58.4-33.8v-67.3zm68-50.5v-67.3l58.4-33.8 58.4 33.8v67.3l-58.4 33.8-58.4-33.8zM1577 979.6v-67.3l58.4-33.8 58.4 33.8v67.3l-58.4 33.8-58.4-33.8zm48.8 50.5v67.3l-58.4 33.8-58.4-33.8v-67.3l58.4-33.8 58.4 33.8zm0-168.2-58.4 33.7-58.4-33.7v-67.5l58.4-33.7 58.4 33.7v67.5zm-68 50.4v67.3l-58.4 33.8-58.4-33.8v-67.3l58.4-33.8 58.4 33.8zm-884.3 117.8v67.3l-58.4 33.8-58.4-33.8v-67.3l58.4-33.8 58.4 33.8zm-48.8-50.5v-67.3l58.4-33.8 58.4 33.8v67.3l-58.4 33.8-58.4-33.8zm0 168.3 58.4-33.8 58.4 33.8v67.3l-58.4 33.8-58.4-33.8v-67.3zm68.1-50.5v-67.3l58.4-33.8 58.4 33.8v67.3l-58.4 33.8-58.4-33.8zm68-117.8v-67.3l58.4-33.8 58.4 33.8v67.3l-58.4 33.8-58.4-33.8zm0 168.3 58.4-33.8 58.4 33.8v67.3l-58.4 33.8-58.4-33.8v-67.3zm68.1-50.5v-67.3l58.3-33.8 58.4 33.8v67.3l-58.4 33.8-58.3-33.8zm252.7-235.5-58.4 33.7-58.4-33.7v-67.5l58.4-33.7 58.4 33.7v67.5zm9.6 16.6 58.4 33.8v67.3l-58.4 33.8-58.3-33.8v-67.3l58.3-33.8zm-77.6 33.8v67.3l-58.4 33.8-58.4-33.8v-67.3l58.4-33.8 58.4 33.8zm-116.8 235.6 58.4-33.8 58.4 33.8v67.3l-58.4 33.8-58.4-33.8v-67.3zm68-50.5v-67.3l58.4-33.8 58.4 33.8v67.3l-58.4 33.8-58.4-33.8zm68.1 50.5 58.3-33.8 58.4 33.8v67.3l-58.4 33.8-58.3-33.8v-67.3zm68-50.5v-67.3l58.4-33.8 58.4 33.8v67.3l-58.4 33.8-58.4-33.8zm68-117.8v-67.3l58.4-33.8 58.4 33.8v67.3l-58.4 33.8-58.4-33.8zm0 168.3 58.4-33.8 58.4 33.8v67.3l-58.4 33.8-58.4-33.8v-67.3zm68.1-50.5v-67.3l58.4-33.8 58.3 33.8v67.3l-58.3 33.8-58.4-33.8zm68-117.8v-67.3l58.4-33.8 58.4 33.8v67.3l-58.4 33.8-58.4-33.8zm0 168.3 58.4-33.8 58.4 33.8v67.3l-58.4 33.8-58.4-33.8v-67.3zm67.9-50.5v-67.3l58.4-33.8 58.4 33.8v67.3l-58.4 33.8-58.4-33.8zm116.8-235.5-58.4 33.7-58.4-33.7v-67.5l58.4-33.7 58.4 33.7v67.5zm-67.9-117.8-58.4 33.7-58.4-33.7v-67.5l58.4-33.7 58.4 33.7v67.5zm-68.2 50.4V862l-58.3 33.7-58.4-33.7v-67.5l58.4-33.7 58.3 33.7zm-67.9-50.4-58.4 33.7-58.4-33.7v-67.5l58.4-33.7 58.4 33.7v67.5zm-68 50.4V862l-58.4 33.7-58.4-33.7v-67.5l58.4-33.7 58.4 33.7zm-68.1-50.4-58.4 33.7-58.3-33.7v-67.5l58.3-33.7 58.4 33.7v67.5zm-68-117.8-58.4 33.7-58.4-33.7v-67.5l58.4-33.7 58.4 33.7v67.5zm-68 50.3v67.5l-58.4 33.7-58.4-33.7v-67.5l58.4-33.7 58.4 33.7zm-68.1 117.9V862l-58.4 33.7-58.3-33.7v-67.5l58.3-33.7 58.4 33.7zm-68-50.4-58.4 33.7-58.4-33.7v-67.5l58.4-33.7 58.4 33.7v67.5zm-67.9 50.4V862l-58.4 33.7-58.4-33.7v-67.5l58.4-33.7 58.4 33.7zm-68.1-50.4-58.4 33.7-58.4-33.7v-67.5l58.4-33.7 58.4 33.7v67.5zm-68 50.4V862l-58.4 33.7-58.4-33.7v-67.5l58.4-33.7 58.4 33.7zm-68 117.8v67.3l-58.4 33.8-58.4-33.8v-67.3l58.4-33.8 58.4 33.8zm-116.8 235.6 58.4-33.8 58.4 33.8v67.3l-58.4 33.8-58.4-33.8v-67.3zm68 117.9 58.4-33.8 58.4 33.8v67.3l-58.4 33.8-58.4-33.8v-67.3zm68 117.8 58.4-33.8 58.4 33.8v67.3l-58.4 33.8-58.4-33.8v-67.3zm68.1-50.5v-67.3l58.4-33.8 58.4 33.8v67.3l-58.4 33.8-58.4-33.8zm68 50.5 58.4-33.8 58.4 33.8v67.3l-58.4 33.8-58.4-33.8v-67.3zm68.1-50.5v-67.3l58.3-33.8 58.4 33.8v67.3l-58.4 33.8-58.3-33.8zm67.9 50.5 58.4-33.8 58.4 33.8v67.3l-58.4 33.8-58.4-33.8v-67.3zm68-50.5v-67.3l58.4-33.8 58.4 33.8v67.3l-58.4 33.8-58.4-33.8zm68.1 50.5 58.3-33.8 58.4 33.8v67.3l-58.4 33.8-58.3-33.8v-67.3zm68-50.5v-67.3l58.4-33.8 58.4 33.8v67.3l-58.4 33.8-58.4-33.8zm68 50.5 58.4-33.8 58.4 33.8v67.3l-58.4 33.8-58.4-33.8v-67.3zm68.1-50.5v-67.3l58.4-33.8 58.3 33.8v67.3l-58.3 33.8-58.4-33.8zm68 50.5 58.4-33.8 58.4 33.8v67.3l-58.4 33.8-58.4-33.8v-67.3zm67.9-50.5v-67.3l58.4-33.8 58.4 33.8v67.3l-58.4 33.8-58.4-33.8zm68.1-117.8V1148l58.4-33.8 58.4 33.8v67.3l-58.4 33.8-58.4-33.8zm68 50.5 58.4-33.8 58.4 33.8v67.3l-58.4 33.8-58.4-33.8v-67.3zm68-50.5V1148l58.4-33.8 58.4 33.8v67.3l-58.4 33.8-58.4-33.8zm68.1-117.9v-67.3l58.4-33.8 58.4 33.8v67.3l-58.4 33.8-58.4-33.8zm68-117.8v-67.3l58.4-33.8 58.4 33.8v67.3l-58.4 33.8-58.4-33.8zm48.8-117.7-58.4 33.7-58.4-33.7v-67.5l58.4-33.7 58.4 33.7v67.5zm-68.1-117.8-58.4 33.7-58.4-33.7v-67.5l58.4-33.7 58.4 33.7v67.5zm-68-117.8-58.4 33.7-58.4-33.7v-67.5l58.4-33.7 58.4 33.7v67.5zm-68 50.3v67.5l-58.4 33.7-58.4-33.7v-67.5l58.4-33.7 58.4 33.7zm-68.1-50.3-58.4 33.7-58.4-33.7v-67.5l58.4-33.7 58.4 33.7v67.5zm-67.9-117.9-58.4 33.7-58.4-33.7V441l58.4-33.7 58.4 33.7v67.4zm-68.2 50.4v67.5l-58.3 33.7-58.4-33.7v-67.5l58.4-33.7 58.3 33.7zm-67.9-50.4-58.4 33.7-58.4-33.7V441l58.4-33.7 58.4 33.7v67.4zm-68 50.4v67.5l-58.4 33.7-58.4-33.7v-67.5l58.4-33.7 58.4 33.7zm-68.1-50.4-58.4 33.7-58.3-33.7V441l58.3-33.7 58.4 33.7v67.4zm-68-117.8-58.4 33.7-58.4-33.7v-67.5l58.4-33.7 58.4 33.7v67.5zm-68 50.4v67.5l-58.4 33.7-58.4-33.7V441l58.4-33.7 58.4 33.7zm-68.1 117.8v67.5L887.1 660l-58.3-33.7v-67.5l58.3-33.7 58.4 33.7zm-68-50.4-58.4 33.7-58.4-33.7V441l58.4-33.7 58.4 33.7v67.4zm-67.9 50.4v67.5L751.2 660l-58.4-33.7v-67.5l58.4-33.7 58.4 33.7zm-68.1-50.4-58.4 33.7-58.4-33.7V441l58.4-33.7 58.4 33.7v67.4zm-68 50.4v67.5L615.1 660l-58.4-33.7v-67.5l58.4-33.7 58.4 33.7zm-68 117.8v67.5l-58.4 33.7-58.4-33.7v-67.5l58.4-33.7 58.4 33.7zm-68.1 117.9V862L479 895.6l-58.4-33.7v-67.5l58.4-33.7 58.4 33.8zm-68-50.4L411 777.8l-58.4-33.7v-67.5L411 643l58.4 33.7v67.4zm-68.1 50.4V862L343 895.6l-58.4-33.7v-67.5l58.4-33.7 58.3 33.8zm-68 117.8v67.3l-58.4 33.8-58.4-33.8v-67.3l58.4-33.8 58.4 33.8zm0 235.6v67.3l-58.4 33.8-58.4-33.8v-67.3l58.4-33.8 58.4 33.8zm-48.7 117.9L343 1232l58.3 33.8v67.3l-58.3 33.8-58.4-33.8v-67.3zm68 117.8 58.4-33.8 58.4 33.8v67.3l-58.4 33.8-58.4-33.8v-67.3zm68-50.5v-67.3L479 1232l58.4 33.8v67.3l-58.4 33.8-58.4-33.8zm68.1 50.5 58.4-33.8 58.4 33.8v67.3l-58.4 33.8-58.4-33.8v-67.3zm68 117.8 58.4-33.8 58.4 33.8v67.3l-58.4 33.8-58.4-33.8v-67.3zm68 117.7 58.4-33.7 58.4 33.7v67.5l-58.4 33.7-58.4-33.7v-67.5zm68.1-50.3v-67.3l58.4-33.8 58.4 33.8v67.3l-58.4 33.8-58.4-33.8zm68 50.3 58.4-33.7 58.4 33.7v67.5l-58.4 33.7-58.4-33.7v-67.5zm68.1-50.3v-67.3l58.3-33.8 58.4 33.8v67.3l-58.4 33.8-58.3-33.8zm67.9 50.3 58.4-33.7 58.4 33.7v67.5l-58.4 33.7-58.4-33.7v-67.5zm68-50.3v-67.3l58.4-33.8 58.4 33.8v67.3l-58.4 33.8-58.4-33.8zm68.1 50.3 58.3-33.7 58.4 33.7v67.5l-58.4 33.7-58.3-33.7v-67.5zm68-50.3v-67.3l58.4-33.8 58.4 33.8v67.3l-58.4 33.8-58.4-33.8zm68 50.3 58.4-33.7 58.4 33.7v67.5l-58.4 33.7-58.4-33.7v-67.5zm68.1-50.3v-67.3l58.4-33.8 58.3 33.8v67.3l-58.3 33.8-58.4-33.8zm68 50.3 58.4-33.7 58.4 33.7v67.5l-58.4 33.7-58.4-33.7v-67.5zm67.9-50.3v-67.3l58.4-33.8 58.4 33.8v67.3l-58.4 33.8-58.4-33.8zm68.1-117.9v-67.3l58.4-33.8 58.4 33.8v67.3l-58.4 33.8-58.4-33.8zm68 50.5 58.4-33.8 58.4 33.8v67.3l-58.4 33.8-58.4-33.8v-67.3zm68-50.5v-67.3l58.4-33.8 58.4 33.8v67.3l-58.4 33.8-58.4-33.8zm68.1-117.8v-67.3l58.4-33.8 58.4 33.8v67.3l-58.4 33.8-58.4-33.8zm68-117.8V1148l58.4-33.8 58.4 33.8v67.3l-58.4 33.8-58.4-33.8zm68-117.9v-67.3l58.4-33.8 58.4 33.8v67.3l-58.4 33.8-58.4-33.8zm116.8-302.9V862l-58.4 33.7-58.4-33.7v-67.5l58.4-33.7 58.4 33.7zm-68-117.9v67.5l-58.4 33.7-58.4-33.7v-67.5l58.4-33.7 58.4 33.7zm-68-117.8v67.5l-58.4 33.7-58.4-33.7v-67.5l58.4-33.7 58.4 33.7zM1693.8 441v67.5l-58.4 33.7-58.4-33.7V441l58.4-33.7 58.4 33.7zM1509 323.2l58.4-33.7 58.4 33.7v67.5l-58.4 33.7-58.4-33.7v-67.5zm48.8 117.8v67.5l-58.4 33.7-58.4-33.7V441l58.4-33.7 58.4 33.7zm-68.1-117.8v67.5l-58.4 33.7-58.4-33.7v-67.5l58.4-33.7 58.4 33.7zM1305 205.3l58.4-33.7 58.4 33.7v67.5l-58.4 33.7-58.4-33.7v-67.5zm48.6 117.9v67.5l-58.3 33.7-58.4-33.7v-67.5l58.4-33.7 58.3 33.7zm-184.7-117.9 58.4-33.7 58.4 33.7v67.5l-58.4 33.7-58.4-33.7v-67.5zm48.8 117.9v67.5l-58.4 33.7-58.4-33.7v-67.5l58.4-33.7 58.4 33.7zm-68.1-117.9v67.5l-58.4 33.7-58.3-33.7v-67.5l58.3-33.7 58.4 33.7zm-184.8-86.6h116.8V155l-58.4 33.7-58.4-33.7v-36.3zm-68 86.6 58.4-33.7 58.4 33.7v67.5l-58.4 33.7-58.4-33.7v-67.5zm48.7 117.9v67.5l-58.4 33.7-58.3-33.7v-67.5l58.3-33.7 58.4 33.7zM760.8 205.3l58.4-33.7 58.4 33.7v67.5l-58.4 33.7-58.4-33.7v-67.5zm48.8 117.9v67.5l-58.4 33.7-58.4-33.7v-67.5l58.4-33.7 58.4 33.7zM624.7 205.3l58.4-33.7 58.4 33.7v67.5l-58.4 33.7-58.4-33.7v-67.5zm-68 117.9 58.4-33.7 58.4 33.7v67.5l-58.4 33.7-58.4-33.7v-67.5zm-68 117.8 58.4-33.7 58.4 33.7v67.5l-58.4 33.7-58.4-33.7V441zm48.7 117.8v67.5L479 659.9l-58.4-33.7v-67.5L479 525l58.4 33.8zM352.6 441l58.4-33.7 58.4 33.7v67.5L411 542.1l-58.4-33.7V441zm-68 117.8 58.4-33.7 58.3 33.7v67.5L343 659.9l-58.4-33.7v-67.4zm-68.1 117.8 58.4-33.7 58.4 33.7v67.5l-58.4 33.7-58.4-33.7v-67.5zm-67.9 185.3v-67.5l58.4-33.7 58.4 33.7v67.5L207 895.6l-58.4-33.7zm0 235.5v-67.3l58.4-33.8 58.4 33.8v67.3l-58.4 33.8-58.4-33.8zm0 235.7v-67.3L207 1232l58.4 33.8v67.3l-58.4 33.8-58.4-33.8zm67.9 117.8v-67.3l58.4-33.8 58.4 33.8v67.3l-58.4 33.8-58.4-33.8zm68.1 117.9v-67.3l58.4-33.8 58.3 33.8v67.3l-58.3 33.8-58.4-33.8zm184.8 117.8-58.4 33.7-58.4-33.7v-67.5l58.4-33.7 58.4 33.7v67.5zm-48.8-117.8v-67.3l58.4-33.8 58.4 33.8v67.3l-58.4 33.8-58.4-33.8zm68.1 117.8v-67.5l58.4-33.7 58.4 33.7v67.5l-58.4 33.7-58.4-33.7zm68 117.8V1737l58.4-33.7 58.4 33.7v67.5l-58.4 33.7-58.4-33.8zm184.8 117.8-58.4 33.7-58.4-33.7v-67.5l58.4-33.7 58.4 33.7v67.5zm-48.7-117.8V1737l58.4-33.7 58.4 33.7v67.5l-58.4 33.7-58.4-33.8zm184.7 117.8-58.4 33.7-58.4-33.7v-67.5l58.4-33.7 58.4 33.7v67.5zm-48.6-117.8V1737l58.3-33.7 58.4 33.7v67.5l-58.4 33.7-58.3-33.8zm184.7 117.8-58.4 33.7-58.4-33.7v-67.5l58.4-33.7 58.4 33.7v67.5zm-48.8-117.8V1737l58.4-33.7 58.4 33.7v67.5l-58.4 33.7-58.4-33.8zm184.8 117.8-58.4 33.7-58.3-33.7v-67.5l58.3-33.7 58.4 33.7v67.5zm-48.7-117.8V1737l58.4-33.7 58.4 33.7v67.5l-58.4 33.7-58.4-33.8zm184.8 117.8-58.4 33.7-58.4-33.7v-67.5l58.4-33.7 58.4 33.7v67.5zm-48.7-117.8V1737l58.4-33.7 58.3 33.7v67.5l-58.3 33.7-58.4-33.8zm184.8 117.8-58.4 33.7-58.4-33.7v-67.5l58.4-33.7 58.4 33.7v67.5zm67.9-117.8-58.4 33.7-58.4-33.7V1737l58.4-33.7 58.4 33.7v67.4zm-48.7-117.8v-67.5l58.4-33.7 58.4 33.7v67.5l-58.4 33.7-58.4-33.7zm184.8 117.8-58.4 33.7-58.4-33.7V1737l58.4-33.7 58.4 33.7v67.4zm68-117.8-58.4 33.7-58.4-33.7v-67.5l58.4-33.7 58.4 33.7v67.5zm68.1-117.8-58.4 33.8-58.4-33.8v-67.3l58.4-33.8 58.4 33.8v67.3zm68-117.9-58.4 33.8-58.4-33.8v-67.3l58.4-33.8 58.4 33.8v67.3zm68-117.8-58.4 33.8-58.4-33.8v-67.3l58.4-33.8 58.4 33.8v67.3zm68.1-117.8-58.4 33.8-58.4-33.8V1148l58.4-33.8 58.4 33.8v67.3zM420.6 323.2c.1 0 .2-.1.2-.1l-.2.1z"
@@ -108,248 +108,248 @@ const IconFabTwitter = ({ svgId }: symbolProps) => (
             </clipPath>
             <linearGradient id="SVGID_00000155847134279883028820000005242584514738470824_" x1="-1123.778" x2="-1123.778"
                 y1="1655.902" y2="856.334" gradientUnits="userSpaceOnUse">
-                <stop offset=".005" stop-color="#ffe921" />
-                <stop offset=".995" stop-color="#ffe921" stop-opacity="0" />
+                <stop offset=".005" stopColor="#ffe921" />
+                <stop offset=".995" stopColor="#ffe921" stopOpacity="0" />
             </linearGradient>
             <linearGradient id="SVGID_00000097484500990208297070000010136602094242406310_" x1="-1813.858" x2="-1813.858"
                 y1="604.128" y2="241.042" gradientUnits="userSpaceOnUse">
-                <stop offset=".005" stop-color="#d62828" />
-                <stop offset=".995" stop-color="#ffe921" stop-opacity="0" />
+                <stop offset=".005" stopColor="#d62828" />
+                <stop offset=".995" stopColor="#ffe921" stopOpacity="0" />
             </linearGradient>
             <linearGradient id="SVGID_00000063611010959595273560000006895905748270794913_" x1="-1710.117" x2="-1710.117"
                 y1="604.128" y2="241.043" gradientUnits="userSpaceOnUse">
-                <stop offset=".005" stop-color="#d62828" />
-                <stop offset=".995" stop-color="#ffe921" stop-opacity="0" />
+                <stop offset=".005" stopColor="#d62828" />
+                <stop offset=".995" stopColor="#ffe921" stopOpacity="0" />
             </linearGradient>
             <linearGradient id="SVGID_00000141422029067299965990000005918543157941314486_" x1="-1718.824" x2="-1718.824"
                 y1="604.127" y2="241.042" gradientUnits="userSpaceOnUse">
-                <stop offset=".005" stop-color="#d62828" />
-                <stop offset=".995" stop-color="#ffe921" stop-opacity="0" />
+                <stop offset=".005" stopColor="#d62828" />
+                <stop offset=".995" stopColor="#ffe921" stopOpacity="0" />
             </linearGradient>
             <linearGradient id="SVGID_00000083050557387240792750000006754713524128463289_" x1="-1804.614" x2="-1804.614"
                 y1="604.127" y2="241.043" gradientUnits="userSpaceOnUse">
-                <stop offset=".005" stop-color="#d62828" />
-                <stop offset=".995" stop-color="#ffe921" stop-opacity="0" />
+                <stop offset=".005" stopColor="#d62828" />
+                <stop offset=".995" stopColor="#ffe921" stopOpacity="0" />
             </linearGradient>
             <linearGradient id="SVGID_00000113351681009596658410000006832401072589809563_" x1="-1813.858" x2="-1813.858"
                 y1="604.127" y2="241.042" gradientUnits="userSpaceOnUse">
-                <stop offset=".005" stop-color="#d62828" />
-                <stop offset=".995" stop-color="#ffe921" stop-opacity="0" />
+                <stop offset=".005" stopColor="#d62828" />
+                <stop offset=".995" stopColor="#ffe921" stopOpacity="0" />
             </linearGradient>
             <linearGradient id="SVGID_00000179634318691732458770000016685825225932122778_" x1="-1710.117" x2="-1710.117"
                 y1="604.128" y2="241.042" gradientUnits="userSpaceOnUse">
-                <stop offset=".005" stop-color="#d62828" />
-                <stop offset=".995" stop-color="#ffe921" stop-opacity="0" />
+                <stop offset=".005" stopColor="#d62828" />
+                <stop offset=".995" stopColor="#ffe921" stopOpacity="0" />
             </linearGradient>
             <linearGradient id="SVGID_00000036965088680319790230000004785508567612313766_" x1="-1600.548" x2="-1600.548"
                 y1="604.127" y2="241.043" gradientUnits="userSpaceOnUse">
-                <stop offset=".005" stop-color="#d62828" />
-                <stop offset=".995" stop-color="#ffe921" stop-opacity="0" />
+                <stop offset=".005" stopColor="#d62828" />
+                <stop offset=".995" stopColor="#ffe921" stopOpacity="0" />
             </linearGradient>
             <linearGradient id="SVGID_00000014624173839678498200000013849082351724107435_" x1="-1547.121" x2="-1547.121"
                 y1="604.127" y2="241.043" gradientUnits="userSpaceOnUse">
-                <stop offset=".005" stop-color="#d62828" />
-                <stop offset=".995" stop-color="#ffe921" stop-opacity="0" />
+                <stop offset=".005" stopColor="#d62828" />
+                <stop offset=".995" stopColor="#ffe921" stopOpacity="0" />
             </linearGradient>
             <linearGradient id="SVGID_00000181786709064017842340000015444840507966329528_" x1="-1564.575" x2="-1564.575"
                 y1="604.127" y2="241.042" gradientUnits="userSpaceOnUse">
-                <stop offset=".005" stop-color="#d62828" />
-                <stop offset=".995" stop-color="#ffe921" stop-opacity="0" />
+                <stop offset=".005" stopColor="#d62828" />
+                <stop offset=".995" stopColor="#ffe921" stopOpacity="0" />
             </linearGradient>
             <linearGradient id="SVGID_00000027602866014938190370000005051124573020334212_" x1="-1530.274" x2="-1530.274"
                 y1="604.125" y2="241.042" gradientUnits="userSpaceOnUse">
-                <stop offset=".005" stop-color="#d62828" />
-                <stop offset=".995" stop-color="#ffe921" stop-opacity="0" />
+                <stop offset=".005" stopColor="#d62828" />
+                <stop offset=".995" stopColor="#ffe921" stopOpacity="0" />
             </linearGradient>
             <linearGradient id="SVGID_00000094582182712921313960000007220086090878069426_" x1="-1631.927" x2="-1631.927"
                 y1="604.128" y2="241.041" gradientUnits="userSpaceOnUse">
-                <stop offset=".005" stop-color="#d62828" />
-                <stop offset=".995" stop-color="#ffe921" stop-opacity="0" />
+                <stop offset=".005" stopColor="#d62828" />
+                <stop offset=".995" stopColor="#ffe921" stopOpacity="0" />
             </linearGradient>
             <linearGradient id="SVGID_00000034803197670980889290000010686740155808620476_" x1="-1602.105" x2="-1602.105"
                 y1="604.127" y2="241.041" gradientUnits="userSpaceOnUse">
-                <stop offset=".005" stop-color="#d62828" />
-                <stop offset=".995" stop-color="#ffe921" stop-opacity="0" />
+                <stop offset=".005" stopColor="#d62828" />
+                <stop offset=".995" stopColor="#ffe921" stopOpacity="0" />
             </linearGradient>
             <linearGradient id="SVGID_00000154411679320571774570000003604964829358024081_" x1="-1593.221" x2="-1593.221"
                 y1="604.128" y2="241.042" gradientUnits="userSpaceOnUse">
-                <stop offset=".005" stop-color="#d62828" />
-                <stop offset=".995" stop-color="#ffe921" stop-opacity="0" />
+                <stop offset=".005" stopColor="#d62828" />
+                <stop offset=".995" stopColor="#ffe921" stopOpacity="0" />
             </linearGradient>
             <linearGradient id="SVGID_00000005945742162854486430000011839772659821355445_" x1="-1451.558" x2="-1451.558"
                 y1="604.128" y2="241.038" gradientUnits="userSpaceOnUse">
-                <stop offset=".005" stop-color="#d62828" />
-                <stop offset=".995" stop-color="#ffe921" stop-opacity="0" />
+                <stop offset=".005" stopColor="#d62828" />
+                <stop offset=".995" stopColor="#ffe921" stopOpacity="0" />
             </linearGradient>
             <linearGradient id="SVGID_00000035492776487591310080000005470794166068965764_" x1="-1425.926" x2="-1425.926"
                 y1="604.127" y2="241.043" gradientUnits="userSpaceOnUse">
-                <stop offset=".005" stop-color="#d62828" />
-                <stop offset=".995" stop-color="#ffe921" stop-opacity="0" />
+                <stop offset=".005" stopColor="#d62828" />
+                <stop offset=".995" stopColor="#ffe921" stopOpacity="0" />
             </linearGradient>
             <linearGradient id="SVGID_00000029751911353190148070000007449612024465671316_" x1="-1343.896" x2="-1343.896"
                 y1="604.126" y2="241.042" gradientUnits="userSpaceOnUse">
-                <stop offset=".005" stop-color="#d62828" />
-                <stop offset=".995" stop-color="#ffe921" stop-opacity="0" />
+                <stop offset=".005" stopColor="#d62828" />
+                <stop offset=".995" stopColor="#ffe921" stopOpacity="0" />
             </linearGradient>
             <linearGradient id="SVGID_00000108307507663149930610000011648756069208309924_" x1="-1347.378" x2="-1347.378"
                 y1="604.126" y2="241.042" gradientUnits="userSpaceOnUse">
-                <stop offset=".005" stop-color="#d62828" />
-                <stop offset=".995" stop-color="#ffe921" stop-opacity="0" />
+                <stop offset=".005" stopColor="#d62828" />
+                <stop offset=".995" stopColor="#ffe921" stopOpacity="0" />
             </linearGradient>
             <linearGradient id="SVGID_00000111180017592656168490000001846201662999070128_" x1="-1374.278" x2="-1374.278"
                 y1="604.127" y2="241.042" gradientUnits="userSpaceOnUse">
-                <stop offset=".005" stop-color="#d62828" />
-                <stop offset=".995" stop-color="#ffe921" stop-opacity="0" />
+                <stop offset=".005" stopColor="#d62828" />
+                <stop offset=".995" stopColor="#ffe921" stopOpacity="0" />
             </linearGradient>
             <linearGradient id="SVGID_00000159472095095980335470000001169360777126622088_" x1="-1463.674" x2="-1463.674"
                 y1="604.127" y2="241.043" gradientUnits="userSpaceOnUse">
-                <stop offset=".005" stop-color="#d62828" />
-                <stop offset=".995" stop-color="#ffe921" stop-opacity="0" />
+                <stop offset=".005" stopColor="#d62828" />
+                <stop offset=".995" stopColor="#ffe921" stopOpacity="0" />
             </linearGradient>
             <linearGradient id="SVGID_00000129168752610510906380000001349989566287430028_" x1="-1206.566" x2="-1206.566"
                 y1="604.128" y2="241.043" gradientUnits="userSpaceOnUse">
-                <stop offset=".005" stop-color="#d62828" />
-                <stop offset=".995" stop-color="#ffe921" stop-opacity="0" />
+                <stop offset=".005" stopColor="#d62828" />
+                <stop offset=".995" stopColor="#ffe921" stopOpacity="0" />
             </linearGradient>
             <linearGradient id="SVGID_00000015354775471796064330000000568936496923305348_" x1="-1105.851" x2="-1105.851"
                 y1="604.128" y2="241.042" gradientUnits="userSpaceOnUse">
-                <stop offset=".005" stop-color="#d62828" />
-                <stop offset=".995" stop-color="#ffe921" stop-opacity="0" />
+                <stop offset=".005" stopColor="#d62828" />
+                <stop offset=".995" stopColor="#ffe921" stopOpacity="0" />
             </linearGradient>
             <linearGradient id="SVGID_00000120533237545160298260000010654106155615247234_" x1="-1190.992" x2="-1190.992"
                 y1="604.127" y2="241.042" gradientUnits="userSpaceOnUse">
-                <stop offset=".005" stop-color="#d62828" />
-                <stop offset=".995" stop-color="#ffe921" stop-opacity="0" />
+                <stop offset=".005" stopColor="#d62828" />
+                <stop offset=".995" stopColor="#ffe921" stopOpacity="0" />
             </linearGradient>
             <linearGradient id="SVGID_00000103947445634842748080000002392141988405790087_" x1="-1232.401" x2="-1232.401"
                 y1="604.128" y2="241.041" gradientUnits="userSpaceOnUse">
-                <stop offset=".005" stop-color="#d62828" />
-                <stop offset=".995" stop-color="#ffe921" stop-opacity="0" />
+                <stop offset=".005" stopColor="#d62828" />
+                <stop offset=".995" stopColor="#ffe921" stopOpacity="0" />
             </linearGradient>
             <linearGradient id="SVGID_00000162352162595947141650000012144424370446127535_" x1="-1183.331" x2="-1183.331"
                 y1="604.126" y2="241.042" gradientUnits="userSpaceOnUse">
-                <stop offset=".005" stop-color="#d62828" />
-                <stop offset=".995" stop-color="#ffe921" stop-opacity="0" />
+                <stop offset=".005" stopColor="#d62828" />
+                <stop offset=".995" stopColor="#ffe921" stopOpacity="0" />
             </linearGradient>
             <linearGradient id="SVGID_00000036967236663395158520000013461134113831801728_" x1="-1139.119" x2="-1139.119"
                 y1="604.128" y2="241.043" gradientUnits="userSpaceOnUse">
-                <stop offset=".005" stop-color="#d62828" />
-                <stop offset=".995" stop-color="#ffe921" stop-opacity="0" />
+                <stop offset=".005" stopColor="#d62828" />
+                <stop offset=".995" stopColor="#ffe921" stopOpacity="0" />
             </linearGradient>
             <linearGradient id="SVGID_00000163775136975637929090000009364558685425194673_" x1="-929.137" x2="-929.137"
                 y1="604.127" y2="241.042" gradientUnits="userSpaceOnUse">
-                <stop offset=".005" stop-color="#d62828" />
-                <stop offset=".995" stop-color="#ffe921" stop-opacity="0" />
+                <stop offset=".005" stopColor="#d62828" />
+                <stop offset=".995" stopColor="#ffe921" stopOpacity="0" />
             </linearGradient>
             <linearGradient id="SVGID_00000066496269377781243410000005803288344259831181_" x1="-921.46" x2="-921.46"
                 y1="604.122" y2="241.045" gradientUnits="userSpaceOnUse">
-                <stop offset=".005" stop-color="#d62828" />
-                <stop offset=".995" stop-color="#ffe921" stop-opacity="0" />
+                <stop offset=".005" stopColor="#d62828" />
+                <stop offset=".995" stopColor="#ffe921" stopOpacity="0" />
             </linearGradient>
             <linearGradient id="SVGID_00000070094507029016047220000015796433720118886048_" x1="-890.431" x2="-890.431"
                 y1="604.131" y2="241.041" gradientUnits="userSpaceOnUse">
-                <stop offset=".005" stop-color="#d62828" />
-                <stop offset=".995" stop-color="#ffe921" stop-opacity="0" />
+                <stop offset=".005" stopColor="#d62828" />
+                <stop offset=".995" stopColor="#ffe921" stopOpacity="0" />
             </linearGradient>
             <linearGradient id="SVGID_00000034080480758661792260000009374500696187864706_" x1="-1017.589" x2="-1017.589"
                 y1="604.126" y2="241.042" gradientUnits="userSpaceOnUse">
-                <stop offset=".005" stop-color="#d62828" />
-                <stop offset=".995" stop-color="#ffe921" stop-opacity="0" />
+                <stop offset=".005" stopColor="#d62828" />
+                <stop offset=".995" stopColor="#ffe921" stopOpacity="0" />
             </linearGradient>
             <linearGradient id="SVGID_00000102506120296623220090000004882839084134295975_" x1="-930.127" x2="-930.127"
                 y1="604.127" y2="241.042" gradientUnits="userSpaceOnUse">
-                <stop offset=".005" stop-color="#d62828" />
-                <stop offset=".995" stop-color="#ffe921" stop-opacity="0" />
+                <stop offset=".005" stopColor="#d62828" />
+                <stop offset=".995" stopColor="#ffe921" stopOpacity="0" />
             </linearGradient>
             <linearGradient id="SVGID_00000003087162604853925680000000433149819187258029_" x1="-1000.761" x2="-1000.761"
                 y1="604.126" y2="241.042" gradientUnits="userSpaceOnUse">
-                <stop offset=".005" stop-color="#d62828" />
-                <stop offset=".995" stop-color="#ffe921" stop-opacity="0" />
+                <stop offset=".005" stopColor="#d62828" />
+                <stop offset=".995" stopColor="#ffe921" stopOpacity="0" />
             </linearGradient>
             <linearGradient id="SVGID_00000174600334223169596820000003844883846666602919_" x1="-1017.589" x2="-1017.589"
                 y1="604.127" y2="241.042" gradientUnits="userSpaceOnUse">
-                <stop offset=".005" stop-color="#d62828" />
-                <stop offset=".995" stop-color="#ffe921" stop-opacity="0" />
+                <stop offset=".005" stopColor="#d62828" />
+                <stop offset=".995" stopColor="#ffe921" stopOpacity="0" />
             </linearGradient>
             <linearGradient id="SVGID_00000134952979087571011360000017128852115511079554_" x1="-841.929" x2="-841.929"
                 y1="604.127" y2="241.043" gradientUnits="userSpaceOnUse">
-                <stop offset=".005" stop-color="#d62828" />
-                <stop offset=".995" stop-color="#ffe921" stop-opacity="0" />
+                <stop offset=".005" stopColor="#d62828" />
+                <stop offset=".995" stopColor="#ffe921" stopOpacity="0" />
             </linearGradient>
             <linearGradient id="SVGID_00000174567245070851205820000014364866401568620951_" x1="-716.76" x2="-716.76"
                 y1="604.127" y2="241.042" gradientUnits="userSpaceOnUse">
-                <stop offset=".005" stop-color="#d62828" />
-                <stop offset=".995" stop-color="#ffe921" stop-opacity="0" />
+                <stop offset=".005" stopColor="#d62828" />
+                <stop offset=".995" stopColor="#ffe921" stopOpacity="0" />
             </linearGradient>
             <linearGradient id="SVGID_00000093892751933027711820000012287745598062416769_" x1="-759.661" x2="-759.661"
                 y1="604.126" y2="241.041" gradientUnits="userSpaceOnUse">
-                <stop offset=".005" stop-color="#d62828" />
-                <stop offset=".995" stop-color="#ffe921" stop-opacity="0" />
+                <stop offset=".005" stopColor="#d62828" />
+                <stop offset=".995" stopColor="#ffe921" stopOpacity="0" />
             </linearGradient>
             <linearGradient id="SVGID_00000110435929640323544330000007451952107400331676_" x1="-803.149" x2="-803.149"
                 y1="604.128" y2="241.043" gradientUnits="userSpaceOnUse">
-                <stop offset=".005" stop-color="#d62828" />
-                <stop offset=".995" stop-color="#ffe921" stop-opacity="0" />
+                <stop offset=".005" stopColor="#d62828" />
+                <stop offset=".995" stopColor="#ffe921" stopOpacity="0" />
             </linearGradient>
             <linearGradient id="SVGID_00000152237209658518318420000011885684457750332560_" x1="-747.289" x2="-747.289"
                 y1="604.127" y2="241.043" gradientUnits="userSpaceOnUse">
-                <stop offset=".005" stop-color="#d62828" />
-                <stop offset=".995" stop-color="#ffe921" stop-opacity="0" />
+                <stop offset=".005" stopColor="#d62828" />
+                <stop offset=".995" stopColor="#ffe921" stopOpacity="0" />
             </linearGradient>
             <linearGradient id="SVGID_00000106110968023324571250000014757474616733046454_" x1="-810.958" x2="-810.958"
                 y1="604.127" y2="241.042" gradientUnits="userSpaceOnUse">
-                <stop offset=".005" stop-color="#d62828" />
-                <stop offset=".995" stop-color="#ffe921" stop-opacity="0" />
+                <stop offset=".005" stopColor="#d62828" />
+                <stop offset=".995" stopColor="#ffe921" stopOpacity="0" />
             </linearGradient>
             <linearGradient id="SVGID_00000177471407399894059960000007397452059399005627_" x1="-827.326" x2="-827.326"
                 y1="604.127" y2="241.054" gradientUnits="userSpaceOnUse">
-                <stop offset=".005" stop-color="#d62828" />
-                <stop offset=".995" stop-color="#ffe921" stop-opacity="0" />
+                <stop offset=".005" stopColor="#d62828" />
+                <stop offset=".995" stopColor="#ffe921" stopOpacity="0" />
             </linearGradient>
             <linearGradient id="SVGID_00000165915069375046671540000000826904274801429645_" x1="-702.706" x2="-702.706"
                 y1="604.127" y2="241.04" gradientUnits="userSpaceOnUse">
-                <stop offset=".005" stop-color="#d62828" />
-                <stop offset=".995" stop-color="#ffe921" stop-opacity="0" />
+                <stop offset=".005" stopColor="#d62828" />
+                <stop offset=".995" stopColor="#ffe921" stopOpacity="0" />
             </linearGradient>
             <linearGradient id="SVGID_00000161629178828732642650000003407539661917551532_" x1="-623.045" x2="-623.045"
                 y1="604.127" y2="241.043" gradientUnits="userSpaceOnUse">
-                <stop offset=".005" stop-color="#d62828" />
-                <stop offset=".995" stop-color="#ffe921" stop-opacity="0" />
+                <stop offset=".005" stopColor="#d62828" />
+                <stop offset=".995" stopColor="#ffe921" stopOpacity="0" />
             </linearGradient>
             <linearGradient id="SVGID_00000070806474777866379160000013745323780928993424_" x1="-624.871" x2="-624.871"
                 y1="604.127" y2="241.042" gradientUnits="userSpaceOnUse">
-                <stop offset=".005" stop-color="#d62828" />
-                <stop offset=".995" stop-color="#ffe921" stop-opacity="0" />
+                <stop offset=".005" stopColor="#d62828" />
+                <stop offset=".995" stopColor="#ffe921" stopOpacity="0" />
             </linearGradient>
             <linearGradient id="SVGID_00000084509074863810386350000010591082487178946196_" x1="-624.871" x2="-624.871"
                 y1="604.127" y2="241.041" gradientUnits="userSpaceOnUse">
-                <stop offset=".005" stop-color="#d62828" />
-                <stop offset=".995" stop-color="#ffe921" stop-opacity="0" />
+                <stop offset=".005" stopColor="#d62828" />
+                <stop offset=".995" stopColor="#ffe921" stopOpacity="0" />
             </linearGradient>
             <linearGradient id="SVGID_00000173866993675217634110000014655690606097231266_" x1="-425.678" x2="-425.678"
                 y1="604.127" y2="241.042" gradientUnits="userSpaceOnUse">
-                <stop offset=".005" stop-color="#d62828" />
-                <stop offset=".995" stop-color="#ffe921" stop-opacity="0" />
+                <stop offset=".005" stopColor="#d62828" />
+                <stop offset=".995" stopColor="#ffe921" stopOpacity="0" />
             </linearGradient>
             <linearGradient id="SVGID_00000183933113329691622980000009136739290838926506_" x1="-507.611" x2="-507.611"
                 y1="604.128" y2="241.042" gradientUnits="userSpaceOnUse">
-                <stop offset=".005" stop-color="#d62828" />
-                <stop offset=".995" stop-color="#ffe921" stop-opacity="0" />
+                <stop offset=".005" stopColor="#d62828" />
+                <stop offset=".995" stopColor="#ffe921" stopOpacity="0" />
             </linearGradient>
             <linearGradient id="SVGID_00000132769491190458081400000009189778609935430822_" x1="-491.44" x2="-491.44"
                 y1="604.127" y2="241.041" gradientUnits="userSpaceOnUse">
-                <stop offset=".005" stop-color="#d62828" />
-                <stop offset=".995" stop-color="#ffe921" stop-opacity="0" />
+                <stop offset=".005" stopColor="#d62828" />
+                <stop offset=".995" stopColor="#ffe921" stopOpacity="0" />
             </linearGradient>
             <linearGradient id="SVGID_00000150085675990382436720000006389089183768468131_" x1="-490.193" x2="-490.193"
                 y1="604.128" y2="241.042" gradientUnits="userSpaceOnUse">
-                <stop offset=".005" stop-color="#d62828" />
-                <stop offset=".995" stop-color="#ffe921" stop-opacity="0" />
+                <stop offset=".005" stopColor="#d62828" />
+                <stop offset=".995" stopColor="#ffe921" stopOpacity="0" />
             </linearGradient>
             <linearGradient id="SVGID_00000099631754916219260950000006103085828029155474_" x1="-437.231" x2="-437.231"
                 y1="604.126" y2="241.045" gradientUnits="userSpaceOnUse">
-                <stop offset=".005" stop-color="#d62828" />
-                <stop offset=".995" stop-color="#ffe921" stop-opacity="0" />
+                <stop offset=".005" stopColor="#d62828" />
+                <stop offset=".995" stopColor="#ffe921" stopOpacity="0" />
             </linearGradient>
         </g>
         <g id="Logo_avec_fond_logo">
@@ -405,15 +405,15 @@ const IconFabTwitter = ({ svgId }: symbolProps) => (
             </clipPath>
             <linearGradient id="SVGID_00000061460625970975562780000017090816298708516237_" x1="1031.56" x2="1031.56"
                 y1="3872.79" y2="2904.636" gradientUnits="userSpaceOnUse">
-                <stop offset=".005" stop-color="#ffe921" />
-                <stop offset=".995" stop-color="#ffe921" stop-opacity="0" />
+                <stop offset=".005" stopColor="#ffe921" />
+                <stop offset=".995" stopColor="#ffe921" stopOpacity="0" />
             </linearGradient>
         </g>
         <g id="Logo_sans_nom_fond_dégradé">
             <linearGradient id="SVGID_00000134230830940467215850000006147915887134895543_" x1="-1131.542" x2="-1131.542"
                 y1="4261.708" y2="2213.586" gradientUnits="userSpaceOnUse">
-                <stop offset="0" stop-color="#ffe921" />
-                <stop offset="1" stop-color="#d62828" />
+                <stop offset="0" stopColor="#ffe921" />
+                <stop offset="1" stopColor="#d62828" />
             </linearGradient>
             <g id="Logo_sans_nom_00000134943982980117966810000006115272923241323424_">
                 <defs />
@@ -422,8 +422,8 @@ const IconFabTwitter = ({ svgId }: symbolProps) => (
                 </clipPath>
                 <linearGradient id="SVGID_00000031906388755349833590000002332685344084759217_" x1="-1123.982" x2="-1123.982"
                     y1="3872.79" y2="2904.636" gradientUnits="userSpaceOnUse">
-                    <stop offset=".005" stop-color="#ffe921" />
-                    <stop offset=".995" stop-color="#ffe921" stop-opacity="0" />
+                    <stop offset=".005" stopColor="#ffe921" />
+                    <stop offset=".995" stopColor="#ffe921" stopOpacity="0" />
                 </linearGradient>
             </g>
         </g>

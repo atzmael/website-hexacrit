@@ -27,7 +27,8 @@ html {
                 font-family: $font-body-wf;
                 // background-color: $color-body;
 
-                background: linear-gradient(rgba($color-primary, 0.2), rgba($color-secondary, 0.2));
+                // background: linear-gradient(rgba($color-primary, 0.2), rgba($color-secondary, 0.2));
+                background-color: #fffefb;
 
                 &.ReactModal__Body {
                     &--open {

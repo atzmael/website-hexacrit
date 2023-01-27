@@ -1,4 +1,5 @@
 
+import Header from '@components/structure/header/Header';
 import Layout from '@components/structure/layout/main/Layout';
 import Home from '@components/structure/pages/public/home/Home';
 import HeadTag from '@structure/headTag/HeadTag';
@@ -59,6 +60,7 @@ const HomePage = ({ seo }: any) => {
                     seo={defaultSeo}
                 />
             }
+            <p style={{textAlign: 'center', marginTop: "20px"}}>Ce site est en cours de construction, merci de votre patience.</p>
             <Home />
         </Layout>
     )

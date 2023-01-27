@@ -37,7 +37,11 @@ interface LayoutProps {
 }
 
 const svgArray: svgItems[] = [
-
+    {
+        icon: 'LogoHexacrit',
+        color: 'currentColor',
+        viewBox: '0 0 2048 2048'
+    }
 ];
 
 const Layout = ({

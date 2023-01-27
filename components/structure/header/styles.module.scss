@@ -1,1 +1,19 @@
 @import "@scss/__mandatory";
+
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    &-logo {
+        display: flex;
+        align-items: center;
+
+        width: 60px;
+        height: 60px;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}

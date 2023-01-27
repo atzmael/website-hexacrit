@@ -1,7 +1,11 @@
 import React, { useEffect } from 'react';
 import styles from "./styles.module.scss";
 
-
+const mainHeader = [
+    {
+        label: ""
+    }
+]
 export interface HeaderInterface {
     page: string,
     lang: string,
@@ -18,6 +22,10 @@ const Header = ({ page, lang }: HeaderInterface) => {
 
     return (
         <header id="mainHeader" className={`${styles["header"]}`}>
+            {/* <nav></nav> */}
+            <div className={styles['header-logo']}>
+                <img src='/assets/medias/logo/logo_x60.png' alt="logo" />
+            </div>
         </header>
     )
 }

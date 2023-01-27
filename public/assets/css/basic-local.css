@@ -14934,8 +14934,8 @@ readers do not read off random characters that represent icons */
     color: #000000;
     font-size: 14px;
     line-height: 1.4;
-    background-color: #ffffff;
     font-family: "Arial";
+    background: linear-gradient(rgba(252, 87, 67, 0.2), rgba(242, 64, 75, 0.2));
   }
   html.own-html body[id=bodySite].ReactModal__Body--open {
     overflow: hidden;

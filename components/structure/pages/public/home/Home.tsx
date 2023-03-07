@@ -7,11 +7,11 @@ const Home = ({ }: IProps) => {
         <div className={`${styles["home"]} ${styles["home-wrapper"]}`}>
             <div className={`${styles["home-wrapper_inner"]}`}>
                 <h1>Hexacrit</h1>
-                <p>
-                    Hexacrit est une association à but non lucratif, œuvrant dans le domaine de l’esport qui a pour but d’atteindre le niveau semi-professionnel, de s’imposer sur la scène compétitive francophone et de rassembler des joueurs et joueuses passionné.es par le jeu vidéo dans un espace bienveillant et ouvert à tous et toutes. L’association est désignée uniquement par son nom "Hexacrit" ou son abréviation HC.<br />
+                <p style={{background: 'lightgrey', padding: "10px"}}>
+                    Hexacrit est une association à but non lucratif, œuvrant dans le domaine de l’esport qui a pour but d’atteindre le niveau semi-professionnel, de s’imposer sur la scène compétitive francophone, de rassembler des joueurs et joueuses passionné.es par le jeu vidéo dans un espace bienveillant et ouvert à tous et toutes et promouvoir l'inlucisivité et la diversité. L’association est désignée uniquement par son nom "Hexacrit" ou son abréviation HC.<br />
                     Pour atteindre les objectifs de l’association, différents moyens sont mis en œuvre : organisation d'événements, recrutements et gestion d’équipes, publicité et diffusion de contenu sur les réseaux.<br />
                 </p>
-                <p>
+                <p style={{background: 'lightgrey', padding: "10px"}}>
                     Si vous êtes intéressé pour rejoindre le staff ou une équipe, contactez-nous via un ticket recrutement sur notre discord
                 </p>
                 <ul className={`${styles['home-nav']}`}>

@@ -78,6 +78,7 @@ const Layout = ({
                 {!!widthScreen && widthScreen < 768 &&
                     <NavTouch menu={menu} current={current} subcurrent={subcurrent} page={page} lang={lang} />
                 }
+                <p style={{ textAlign: 'center', color: "lightgrey", background: "grey", padding: "10px" }}>Ce site est en cours de construction, merci de votre patience.</p>
                 {!!header &&
                     <Header page={page} lang={lang} />
                 }

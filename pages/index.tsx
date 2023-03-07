@@ -60,7 +60,6 @@ const HomePage = ({ seo }: any) => {
                     seo={defaultSeo}
                 />
             }
-            <p style={{textAlign: 'center', marginTop: "20px"}}>Ce site est en cours de construction, merci de votre patience.</p>
             <Home />
         </Layout>
     )
